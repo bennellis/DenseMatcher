@@ -2,6 +2,11 @@
 tmp
 DenseCorr3D
 checkpoints
+HOT3D
+source_renders
+source_renders_simp
+target_renders
+target_renders_simp
 **/*pycache*
 *.zip
 *.pt

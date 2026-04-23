@@ -8,7 +8,10 @@ from scipy.optimize import linear_sum_assignment
 from tqdm import tqdm
 from PIL import Image
 from pytorch3d.io import load_objs_as_meshes
-import meshplot as mp
+try:
+    import meshplot as mp
+except Exception:
+    mp = None
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import colorsys
